@@ -5,7 +5,7 @@ type ButtonProps = ComponentProps<"button"> & {
 };
 
 export const Button = ({ ...props }: ButtonProps) => {
-  return <button style={{ background: "red" }} {...props} />;
+  return <button style={{ background: "blue" }} {...props} />;
 };
 
 export default Button;
